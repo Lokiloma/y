@@ -438,7 +438,7 @@ async function send_log(c, guild, color, title, description, thumb) {
       .setTimestamp()
       .setThumbnail(thumb ? thumb : guild.iconURL({ format: "png" }))
       .setFooter(
-        guild.name + " Coded By Tech Boy Gaming",
+        guild.name + " Made with 💖 by araan_sheikh#4416",
         guild.iconURL({ format: "png" })
       );
     //GET THE CHANNEL
