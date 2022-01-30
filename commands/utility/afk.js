@@ -20,7 +20,7 @@ module.exports = {
         .setDescription(`You have been set as AFK. \`${reason}\``)
         .setTimestamp()
         .setColor(`RANDOM`)
-        .setFooter(`Coded By Tech Boy Gaming`)
+        .setFooter(`Made with 💖 by araan_sheikh#4416`)
     );
   },
 };
