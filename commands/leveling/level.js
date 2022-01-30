@@ -42,7 +42,7 @@ module.exports = {
         .setTitle(`${target.username} Level`)
         .setThumbnail(target.displayAvatarURL())
         .setDescription(`> **${target.tag}** is currently level ${user.level}.`)
-        .setFooter("Leveling System By Kabir Jaipal");
+        .setFooter("Made with 💖 by araan_sheikh#4416");
 
       message.channel.send(levelsss);
     }
