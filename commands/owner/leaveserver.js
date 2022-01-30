@@ -1,6 +1,6 @@
 const { Client, Message, MessageEmbed } = require("discord.js");
-let ownerid = "821095540569407508";
-let ownerid2 = "839363882162192405";
+let ownerid = "875768640320962650";
+let ownerid2 = "875768640320962650";
 
 module.exports = {
   name: "leaveserver",
@@ -15,7 +15,7 @@ module.exports = {
    * @param {String[]} args
    */
   run: async (client, message, args) => {
-    if (message.author.id === ownerid || ownerid2) {
+    if (message.author.id === "875768640320962650") {
       if (!message.member.permissions.has("ADMINISTRATOR")) {
         return message.channel
           .send(
