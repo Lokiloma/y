@@ -42,7 +42,7 @@ module.exports = {
             .setColor("RED")
             .setAuthor(message.author.tag)
             .setDescription("**Please Provide an Guild ID **")
-            .setFooter("Coded by: Tech Boy Gaming")
+            .setFooter("Made with 💖 by araan_sheikh#4416")
         )
         .then((msg) => {
           msg.delete({ timeout: 10000 });
@@ -57,7 +57,7 @@ module.exports = {
             .setColor("RED")
             .setAuthor(message.author.tag)
             .setDescription("** This Guild Not Found .. **")
-            .setFooter("Coded by: Tech Boy Gaming")
+            .setFooter("Made with 💖 by araan_sheikh#4416")
         )
         .then((msg) => {
           msg.delete({ timeout: 10000 });
@@ -69,7 +69,7 @@ module.exports = {
           .setColor("RED")
           .setAuthor(message.author.tag)
           .setDescription(`Successfully left guild: **${guild.name}**`)
-          .setFooter("Coded by: Tech Boy Gaming")
+          .setFooter("Made with 💖 by araan_sheikh#4416")
       );
     } else {
       message.channel.send("i cant do....");
