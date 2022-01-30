@@ -27,7 +27,7 @@ module.exports = {
         })}) | :frame_photo: [WEBP](${user.avatarURL({ format: "webp" })}) |` +
           "\nYour PFP is Op :blush:"
       )
-      .setFooter(`\`Coded by: Tech Boy Gaming\`` + client.user.tag);
+      .setFooter(`\`Made with 💖 by araan_sheikh#4416\`` + client.user.tag);
 
     message.channel.send(av);
   },
