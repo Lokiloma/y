@@ -193,7 +193,7 @@ function curembed(client, message) {
       )
       .addField("↪️ Autoplay:", `>>> ${queue.autoplay ? "✅" : "❌"}`, true)
       .addField("❔ Filter:", `>>> \`${queue.filter || "❌"}\``, true)
-      .setFooter("Made By Kabir Jaipal aka Tech Boy Gaming")
+      .setFooter("Made with 💖 by araan_sheikh#4416")
       .setAuthor(
         message.author.tag,
         message.member.user.displayAvatarURL({
