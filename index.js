@@ -113,7 +113,7 @@ client.giveawaysManager.on(
           .setDescription(
             `Your entery to [This Giveaway](https://discord.com/channels/${giveaway.guildID}/${giveaway.channelID}/${giveaway.messageID}) has been approved!`
           )
-          .setFooter("Coded By Tech Boy Gaming")
+          .setFooter("Made with 💖 by araan_sheikh#4416")
           .setTimestamp()
       );
     } catch (error) {
@@ -126,7 +126,7 @@ client.giveawaysManager.on(
           .setDescription(
             `Your entery to [This Giveaway](https://discord.com/channels/${giveaway.guildID}/${giveaway.channelID}/${giveaway.messageID}) has been denied as you did not join **${guildx.name}**`
           )
-          .setFooter("Coded By Tech Boy Gaming")
+          .setFooter("Made with 💖 by araan_sheikh#4416")
       );
     }
   }
