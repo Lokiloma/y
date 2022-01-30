@@ -20,7 +20,7 @@ module.exports = {
     const embed = new MessageEmbed()
       .setTitle(`Enlarged version of ${emoji}`)
       .setColor("RED")
-      .setFooter(`\`Coded by: Tech Boy Gaming\``);
+      .setFooter(`\`Made with 💖 by araan_sheikh#4416\``);
 
     if (custom.id) {
       embed.setImage(
