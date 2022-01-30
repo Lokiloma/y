@@ -53,11 +53,11 @@ module.exports = {
         )
         .addField(
           "• Developer",
-          `\`\`\`yml\nName: ᴋᴀʙɪʀ々ꜱɪɴɢʜ#8148 [821095540569407508]\nName Ξ Kabir Jaipal [821095540569407508]\`\`\``
+          `\`\`\`yml\nName: araan_sheikh#4416 [875768640320962650]\`\`\``
         )
         .addField(
           "• Important Links",
-          `**[Invite Link](https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=bot)\`|\`[Support Server](https://discord.com/invite/tVWrU5PWZV)\`|\`[Youtube](https://www.youtube.com/channel/UCINCfgiBYCykOemiuVhqtIQ/)\`**`
+          `**[Invite Link](https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=bot)\`|\`[Support Server](https://discord.com/invite/)\`**`
         )
         .setTimestamp();
 
@@ -85,13 +85,13 @@ module.exports = {
 
       let btn2 = new MessageButton()
         .setStyle("url")
-        .setLabel(`Subscribe Now`)
-        .setURL(`https://youtube.com/techboy2`);
+        .setLabel(`Invite Me`)
+        .setURL(``);
 
       let bt3 = new MessageButton()
         .setStyle("url")
         .setLabel(`Join Now`)
-        .setURL(`https://dsc.gg/techboy`);
+        .setURL(`https://dsc.gg/clomels`);
       let btnarr = [btn2, btn, bt3];
       let msg = await message.channel.send({
         embed: embed,
@@ -122,7 +122,7 @@ module.exports = {
                   .join(" ' ")}`
               )
               .setFooter(
-                `Coded By Tech Boy Gaming`,
+                `Made with 💖 by araan_sheikh#4416`,
                 message.author.displayAvatarURL({ dynamic: true })
               );
 
@@ -193,7 +193,7 @@ module.exports = {
           .setColor(color)
           .setThumbnail(client.user.displayAvatarURL({ format: "png" }))
           .setColor("RANDOM")
-          .setFooter(`Coded By Tech Boy Gaming`);
+          .setFooter(`Made with 💖 by araan_sheikh#4416`);
 
         return message.channel.send(combed);
       }
