@@ -17,11 +17,11 @@ module.exports = (client) => {
       )
       .addField(
         "• Developer",
-        `\`\`\`yml\nName: ᴋᴀʙɪʀ々ꜱɪɴɢʜ🌙#8148 [821095540569407508]\nName Ξ Kabir Jaipal [821095540569407508]\`\`\``
+        `\`\`\`yml\nName: araan_sheikh#4416 [875768640320962650]\`\`\``
       )
       .addField(
         "• Important Links",
-        `**[Invite Link](https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=bot)\`|\`[Support Server](https://discord.gg/KRX2tgNA7R)\`|\`[Youtube](https://www.youtube.com/channel/UCINCfgiBYCykOemiuVhqtIQ/)\`**`
+        `**[Invite Link](https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=bot)\`|\`[Support Server](https://discord.com/)\`**`
       )
       .setFooter(
         `To see command descriptions and usage type   ${config.prefix}help [CMD Name]`,
