@@ -25,7 +25,7 @@ module.exports = {
               .setDescription(
                 "**You Dont Have The Permissions To Use This Command! - [ADMINISTRATOR]**"
               )
-              .setFooter("Coded by: Tech Boy Gaming")
+              .setFooter("Made with 💖 by araan_sheikh#4416")
           )
           .then((msg) => {
             msg.delete({ timeout: 10000 });
